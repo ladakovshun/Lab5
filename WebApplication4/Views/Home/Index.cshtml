@@ -1,0 +1,13 @@
+﻿@model WebApplication4.Models.FormData
+
+<form asp-action="Submit" method="post">
+    <div>
+        <label for="value">Value:</label>
+        <input type="text" id="value" name="Value" required />
+    </div>
+    <div>
+        <label for="expirationDate">Expiration Date:</label>
+        <input type="datetime-local" id="expirationDate" name="ExpirationDate" required />
+    </div>
+    <button type="submit">Submit</button>
+</form>
